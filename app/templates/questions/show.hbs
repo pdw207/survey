@@ -1,6 +1,16 @@
 <div class="question card">
   <h1 class="question-text">{{model.text}}</h1>
-  {{time-countdown action='updateTime'}}
-  <div>slider</div>
+  <div class="attributes">
+    <div class="attribute">
+      <h2 class="attribute__header">{{model.attributeB.text}}</h2>
+      <img {{bind-attr src=model.attributeA.image}} class="attribute__image"/>
+    </div>
+    {{time-countdown action='updateTime'}}
+    <div class="attribute">
+      <h2 class="attribute__header">{{model.attributeB.text}}</h2>
+      <img {{bind-attr src=model.attributeB.image}}  class="attribute__image"/>
+    </div>
+    <input type=range min=0 max=500/ name=value class="question__slider">
+  </div>
 </div>
 

@@ -1,3 +1,6 @@
+.wrapper {
+  margin-top: 100px;
+}
 .card {
   width: 500px;
   margin: auto;
@@ -15,4 +18,27 @@
 
 .instructions__start {
   float: right;
+}
+
+.attribute, .question__time-remaining {
+  display: inline-table;
+  width: 30%;
+}
+
+.question-text {
+  font-size: 20px;
+}
+.question__time-remaining {
+  text-align: center;
+}
+.attribute__image {
+  width: 100%;
+}
+
+.attribute__header {
+  font-size: 15px;
+}
+.question__slider {
+  width: 100%;
+  margin-top: 65px;
 }

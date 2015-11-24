@@ -1,7 +1,7 @@
 import Ember from 'ember';
 
 export default Ember.Component.extend({
-  className: ['question__time-remaining'],
+  classNames: ['question__time-remaining'],
   remainingTime: 20,
   willInsertElement() {
     var self = this,
