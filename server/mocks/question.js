@@ -3,11 +3,15 @@ var _ = require('lodash');
 const questions = [
   {
     id: 'home',
-    text: 'What brings you most happiness? Hometown or Country?'
+    text: 'What brings you most happiness? Hometown or Country?',
+    attributeA: 1,
+    attributeB: 2
   },
   {
     id: 'work',
-    text: 'What brings you most happiness? Work or School?'
+    text: 'What brings you most happiness? Work or School?',
+    attributeA: 3,
+    attributeB: 4
   }
 ]
 
